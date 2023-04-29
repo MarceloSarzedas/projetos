@@ -9,6 +9,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.fundo>a{
+    font-size: 24px;
+    margin: 20px;
+}
 .calculadora{
     position: absolute;
     background-color: rgba(13, 128, 80, 0.8);

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo projeto</title>
-   <link rel="stylesheet" href="/index.css">
+    <!--  <link rel="stylesheet" href="/index.css"> -->
 </head>
+
 <body>
     <div class="container">
         <nav>
@@ -22,15 +24,15 @@
                 </li>
             </ul>
         </nav>
-    
-    
-            <header>
-                 <div class="center">
-                    <img src="img/Foto.jpg" alt="">
-                 </div>
-                <h1>Marcelo Sarzedas</h1>
-                <h2>Devolvedor de Software Junior</h2>
-            </header>
+
+
+        <header>
+            <div class="center">
+                <img src="img/Foto.jpg" alt="">
+            </div>
+            <h1>Marcelo Sarzedas</h1>
+            <h2>desenvolvimento junior</h2>
+        </header>
         <main>
             <section>
                 <h3>Sobre mim</h3>
@@ -89,82 +91,143 @@
         </main>
 
         <footer>
-            <a href="https://github.com/AdrianaSaty" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MarceloSarzedas" target="_blank" rel="noopener noreferrer">
                 <img src="./img/github.svg"></img>
                 <p>Github</p>
             </a>
-            <a href="https://www.linkedin.com/in/adriana-saty-bertelli/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/marcelo-h-sarzedas/" target="_blank" rel="noopener noreferrer">
                 <img src="./img/linkedin.svg"></img>
                 <p>Linkedin</p>
-            </a>
+                <!--  </a>
             <a href="https://www.youtube.com/c/AdrianaSaty" target="_blank" rel="noopener noreferrer">
                 <img src="./img/youtube.svg"></img>
                 <p>Youtube</p>
-            </a>
+            </a> -->
         </footer>
     </div>
-    <!-- <style>
+    <style>
         body {
-    color: black;
-    background-color: goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
-}
-a {
-    color: black;
-    text-decoration: none;
-}
-header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid rgb(29, 2, 21)
-}
-.center {
-    text-align: center;
-}
+            color: black;
+            background: rgb(10, 208, 240);
+            background: -moz-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+            background: -webkit-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+            background: linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0ad0f0", endColorstr="#1c24f5", GradientType=1);
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-h1 {
-    color: #360e69;
-}
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 16px;
+        }
 
-footer img {
-    width: 40px;
-    height: 40px;
-}
+        a {
+            color: rgb(48, 17, 17);
+            text-decoration: none;
+        }
 
-footer {
-    display: flex;
-    justify-content: center;
-}
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(29, 2, 21)
+        }
 
-footer a {
-    margin: 20px;
-    text-align: center;
-}
+        p {
+            font-size: 18px;
+        }
 
-footer p {
-    margin-top: 2px;
-}
+        .center {
+            text-align: center;
+        }
 
-.container {
-    padding: 0px 50px;
-}
+        h1 {
+            color: #360e69;
+        }
 
-nav a {
-    font-size: 20px;
-}
+        footer img {
+            width: 40px;
+            height: 40px;
+        }
 
-nav a:hover {
-    color: rgb(125, 11, 129);
-}
-    </style> -->
+        footer {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer a {
+            margin: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin-top: 2px;
+        }
+
+        .container {
+            padding: 0px 50px;
+        }
+
+        nav a {
+            font-size: 20px;
+
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 16px;
+        }
+
+        nav a:hover {
+            color: rgb(125, 11, 129);
+        }
+
+        /* Estilos para dispositivos com largura máxima de 768 pixels */
+        @media only screen and (max-width: 768px) {
+            p {
+                font-size: 20px;
+                margin-left: 40px
+            }
+
+            body {
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                align-items: center;
+                padding: 16px;
+                flex-direction: column;
+
+                /* Adicione aqui os estilos que deseja aplicar para dispositivos móveis e tablets */
+            }
+
+            h1,
+            h2,
+            h3 {
+                margin-left: 40px;
+                display: flex;
+                font-size: 24px;
+            }
+
+            footer {
+                margin-left: 40px;
+                display: flex;
+            }
+        }
+
+        header img {
+            margin-left: 40px;
+        }
+
+        /* Estilos para dispositivos com largura máxima de 480 pixels */
+        @media only screen and (max-width: 480px) {
+            body {
+                /* Adicione aqui os estilos que deseja aplicar para dispositivos móveis com tela pequena */
+            }
+        }
+    </style>
 </body>
 
 </html>
