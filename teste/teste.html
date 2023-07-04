@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trocar Cor da Página</title>
+  <script>
+    function trocarCor() {
+      var cores = ["red", "blue", "yellow" ];
+      var corAtual = document.body.style.backgroundColor;
+      var corIndex = cores.indexOf(corAtual);
+
+      if (corIndex === -1 || corIndex === cores.length - 1) {
+        document.body.style.backgroundColor = cores[0];
+      } else {
+        document.body.style.backgroundColor = cores[corIndex + 1];
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="trocarCor()">Trocar Cor</button>
+</body>
+</html>
