@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo projeto</title>
-    <!--  <link rel="stylesheet" href="/index.css"> -->
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <nav>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
             <ul>
                 <li>
                     <a href="index.html">Sobre min</a>
@@ -27,11 +33,23 @@
 
 
         <header>
-            <div class="center">
-                <img src="img/Foto.jpg" alt="">
+            <div class="container">
+                <div class="center">
+                    <img src="img/Foto.jpg" alt="">
+                    <h1>Marcelo Henrique </h1>
+                    <h2>desenvolvedor júnior</h2>
+                </div>
             </div>
-            <h1>Marcelo Sarzedas</h1>
-            <h2>desenvolvimento junior</h2>
+            <div class="container">
+                <h3>tecnologias</h3>
+                <h4>javascript</h4>
+                <h4>html</h4>
+                <h4>css</h4>
+                <h4>mysql</h4>
+                <h4>python</h4>
+
+            </div>
+
         </header>
         <main>
             <section>
@@ -105,9 +123,9 @@
             </a> -->
         </footer>
     </div>
-    <style>
+    <!-- <style>
         body {
-            color: black;
+            
             background: rgb(10, 208, 240);
             background: -moz-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
             background: -webkit-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
@@ -133,7 +151,8 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 5px solid rgb(29, 2, 21)
+            border: 5px solid rgb(29, 2, 21);
+            margin-left: 140px;
         }
 
         p {
@@ -141,7 +160,8 @@
         }
 
         .center {
-            text-align: center;
+            margin-left: 15px;
+
         }
 
         h1 {
@@ -168,7 +188,10 @@
         }
 
         .container {
-            padding: 0px 50px;
+            margin: 5px;
+            background-color: white;
+
+
         }
 
         nav a {
@@ -185,56 +208,15 @@
             color: rgb(125, 11, 129);
         }
 
-        /* Estilos para dispositivos com largura máxima de 768 pixels */
-        @media only screen and (max-width: 768px) {
-            p {
-                font-size: 20px;
-                margin-left: 40px
-            }
-
-            body {
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-                align-items: center;
-                padding: 16px;
-                flex-direction: column;
-
-                /* Adicione aqui os estilos que deseja aplicar para dispositivos móveis e tablets */
-            }
-
-            h1,
-            h2,
-            h3 {
-                margin-left: 40px;
-                display: flex;
-                font-size: 24px;
-            }
-
-            footer {
-                margin-left: 40px;
-                display: flex;
-            }
-        }
-
-        header img {
-            margin-left: 40px;
-        }
-
-        /* Estilos para dispositivos com largura máxima de 480 pixels */
-        @media only screen and (max-width: 480px) {
-            body {
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-                align-items: center;
-                padding: 16px;
-                flex-direction: column;
-                /* Adicione aqui os estilos que deseja aplicar para dispositivos móveis com tela pequena */
-            }
-        }
-    </style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 400,
+            'GRAD' 200,
+            'opsz' 48;
+            color:blue
+}
+    </style> -->
 </body>
 
 </html>
-
